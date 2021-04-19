@@ -1,0 +1,3100 @@
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-22-684c28439416>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+  File "<ipython-input-13-7db7fb2ef511>", line 5, in Financial_Express
+    news_day = dri.find_element_by_xpath('//*[@class="story_mid"]/div/div/div/span').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="story_mid"]/div/div/div/span"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-10-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-22-684c28439416>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-10-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-22-684c28439416>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+  File "<ipython-input-13-7db7fb2ef511>", line 5, in Financial_Express
+    news_day = dri.find_element_by_xpath('//*[@class="story_mid"]/div/div/div/span').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="story_mid"]/div/div/div/span"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-10-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-22-684c28439416>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-10-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-22-684c28439416>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-17-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-22-684c28439416>", line 50, in <module>
+    news_day,news= The_Hindu(link)
+  File "<ipython-input-18-5cb6cf807440>", line 3, in The_Hindu
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+NameError: name 'Moneycontrol' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+NameError: name 'Moneycontrol' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+NameError: name 'Moneycontrol' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+NameError: name 'Moneycontrol' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 50, in <module>
+    news_day,news= The_Hindu(link)
+NameError: name 'The_Hindu' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 50, in <module>
+    news_day,news= The_Hindu(link)
+NameError: name 'The_Hindu' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 44, in <module>
+    news_day,news= Firstpost(link)
+NameError: name 'Firstpost' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 44, in <module>
+    news_day,news= Firstpost(link)
+NameError: name 'Firstpost' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 52, in <module>
+    news_day,news= Investing_com(link)
+NameError: name 'Investing_com' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 52, in <module>
+    news_day,news= Investing_com(link)
+NameError: name 'Investing_com' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+NameError: name 'Moneycontrol' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+NameError: name 'Moneycontrol' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+NameError: name 'Moneycontrol' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+NameError: name 'Moneycontrol' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 50, in <module>
+    news_day,news= The_Hindu(link)
+NameError: name 'The_Hindu' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 50, in <module>
+    news_day,news= The_Hindu(link)
+NameError: name 'The_Hindu' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 50, in <module>
+    news_day,news= The_Hindu(link)
+NameError: name 'The_Hindu' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 50, in <module>
+    news_day,news= The_Hindu(link)
+NameError: name 'The_Hindu' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+NameError: name 'Bloomberg_Quint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+NameError: name 'India_Infoline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 40, in <module>
+    news_day,news= Financial_Express(link)
+NameError: name 'Financial_Express' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+NameError: name 'Business_Today' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 56, in <module>
+    news_day,news=Hindustan_Times(link)
+NameError: name 'Hindustan_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 28, in <module>
+    news_day,news= Hindu_Businessline(link)
+NameError: name 'Hindu_Businessline' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 26, in <module>
+    news_day,news= Business_Standard(link)
+NameError: name 'Business_Standard' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+NameError: name 'News18' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+NameError: name 'Free_Press_Journal' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+NameError: name 'Economic_Times' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-38-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+NameError: name 'Livemint' is not defined
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+  File "<ipython-input-45-0d574c53b776>", line 9, in Livemint
+    news_2 = dri.find_element_by_xpath("//*[contains(@id,'mainArea')]/div[1]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'mainArea')]/div[1]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+  File "<ipython-input-45-0d574c53b776>", line 9, in Livemint
+    news_2 = dri.find_element_by_xpath("//*[contains(@id,'mainArea')]/div[1]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'mainArea')]/div[1]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+  File "<ipython-input-45-0d574c53b776>", line 9, in Livemint
+    news_2 = dri.find_element_by_xpath("//*[contains(@id,'mainArea')]/div[1]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'mainArea')]/div[1]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+  File "<ipython-input-45-0d574c53b776>", line 7, in Livemint
+    news_day = dri.find_element_by_xpath("//*[contains(@id,'tBox')]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'tBox')]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+  File "<ipython-input-45-0d574c53b776>", line 7, in Livemint
+    news_day = dri.find_element_by_xpath("//*[contains(@id,'tBox')]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'tBox')]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 38, in <module>
+    news_day,news= Livemint(link)
+  File "<ipython-input-45-0d574c53b776>", line 7, in Livemint
+    news_day = dri.find_element_by_xpath("//*[contains(@id,'tBox')]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'tBox')]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+  File "<ipython-input-50-a457a39ab5b3>", line 6, in News18
+    news_day = dri.find_element_by_xpath('//*[@id="left"]/div[position()= 2 or position()= 3]/div[1]/div[2]/ul/li[2]').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="left"]/div[position()= 2 or position()= 3]/div[1]/div[2]/ul/li[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+  File "<ipython-input-50-a457a39ab5b3>", line 6, in News18
+    news_day = dri.find_element_by_xpath('//*[@id="left"]/div[position()= 2 or position()= 3]/div[1]/div[2]/ul/li[2]').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="left"]/div[position()= 2 or position()= 3]/div[1]/div[2]/ul/li[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 46, in <module>
+    news_day,news= News18(link)
+  File "<ipython-input-50-a457a39ab5b3>", line 6, in News18
+    news_day = dri.find_element_by_xpath('//*[@id="left"]/div[position()= 2 or position()= 3]/div[1]/div[2]/ul/li[2]').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="left"]/div[position()= 2 or position()= 3]/div[1]/div[2]/ul/li[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+  File "<ipython-input-48-fac51f260503>", line 6, in India_Infoline
+    news_day = dri.find_element_by_xpath('//*[@class="card primary_contnent_bg story_card_temp"]/section/header/div/div/p/span').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="card primary_contnent_bg story_card_temp"]/section/header/div/div/p/span"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+  File "<ipython-input-48-fac51f260503>", line 6, in India_Infoline
+    news_day = dri.find_element_by_xpath('//*[@class="card primary_contnent_bg story_card_temp"]/section/header/div/div/p/span').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="card primary_contnent_bg story_card_temp"]/section/header/div/div/p/span"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 42, in <module>
+    news_day,news= India_Infoline(link)
+  File "<ipython-input-48-fac51f260503>", line 6, in India_Infoline
+    news_day = dri.find_element_by_xpath('//*[@class="card primary_contnent_bg story_card_temp"]/section/header/div/div/p/span').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="card primary_contnent_bg story_card_temp"]/section/header/div/div/p/span"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 48, in <module>
+    news_day,news= Bloomberg_Quint(link)
+  File "<ipython-input-51-5c0255772f00>", line 13, in Bloomberg_Quint
+    return news_day,news
+UnboundLocalError: local variable 'news_day' referenced before assignment
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 6, in Free_Press_Journal
+    news = dri.find_element_by_xpath('//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 6, in Free_Press_Journal
+    news = dri.find_element_by_xpath('//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 6, in Free_Press_Journal
+    news = dri.find_element_by_xpath('//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 5, in Free_Press_Journal
+    date = dri.find_element_by_xpath("//*[@id='container']/div/div[1]/div/div[1]/div[1]/div[1]/div[1]/time").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div[1]/div[1]/div[1]/div[1]/time"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 5, in Free_Press_Journal
+    date = dri.find_element_by_xpath("//*[@id='container']/div/div[1]/div/div[1]/div[1]/div[1]/div[1]/time").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div[1]/div[1]/div[1]/div[1]/time"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 5, in Free_Press_Journal
+    date = dri.find_element_by_xpath("//*[@id='container']/div/div[1]/div/div[1]/div[1]/div[1]/div[1]/time").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div/div[1]/div[1]/div[1]/div[1]/time"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 6, in Free_Press_Journal
+    news = dri.find_element_by_xpath('//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 6, in Free_Press_Journal
+    news = dri.find_element_by_xpath('//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 6, in Free_Press_Journal
+    news = dri.find_element_by_xpath('//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 6, in Free_Press_Journal
+    news = dri.find_element_by_xpath('//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 6, in Free_Press_Journal
+    news = dri.find_element_by_xpath('//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 34, in <module>
+    news_day,news= Free_Press_Journal(link)
+  File "<ipython-input-44-430146b45a50>", line 6, in Free_Press_Journal
+    news = dri.find_element_by_xpath('//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div').text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div/div[1]/div[1]/div[5]/div[2]/div[2]/div/div[1]/div[1]/div[1]/div/div"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-43-c9d1bcffc0da>", line 6, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[5]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[5]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 9, in Moneycontrol
+    news_date = dri.find_element_by_xpath("//*[contains(@id,'article')]/div[1]/div[2]").text
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'article')]/div[1]/div[2]"}
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+  File "<ipython-input-42-06c0605b768d>", line 3, in Business_Today
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+  File "<ipython-input-42-06c0605b768d>", line 3, in Business_Today
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 30, in <module>
+    news_day,news= Business_Today(link)
+  File "<ipython-input-42-06c0605b768d>", line 3, in Business_Today
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 3, in Moneycontrol
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 3, in Moneycontrol
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 32, in <module>
+    news_day,news= Moneycontrol(link)
+  File "<ipython-input-43-c9d1bcffc0da>", line 3, in Moneycontrol
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+  File "<ipython-input-39-e7b9920124c3>", line 3, in Economic_Times
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+  File "<ipython-input-39-e7b9920124c3>", line 3, in Economic_Times
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+  File "<ipython-input-39-e7b9920124c3>", line 3, in Economic_Times
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+  File "<ipython-input-39-e7b9920124c3>", line 3, in Economic_Times
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+  File "<ipython-input-39-e7b9920124c3>", line 3, in Economic_Times
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
+ERROR:__main__:no such element Unable to locate element
+Traceback (most recent call last):
+  File "<ipython-input-57-8bb2c49ca65c>", line 24, in <module>
+    news_day,news = Economic_Times(link)
+  File "<ipython-input-39-e7b9920124c3>", line 3, in Economic_Times
+    dri.get(url)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\shankar\anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=89.0.4389.90)
+
